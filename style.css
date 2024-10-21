@@ -1,0 +1,506 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: "sans-bold";
+    src: url(fonts/open-sans-bold.yji-1145ff0b749fff2d31bb.woff2);
+}
+@font-face {
+    font-family: "sans-regular";
+    src: url(fonts/open-sans-regular.yji-aff9b80e384301f2ae0c.woff2);
+}
+@font-face {
+    font-family: "sans-semibold";
+    src: url(fonts/open-sans-semibold.yji-d3abae27d3eac73b40a5.woff2);
+}
+@font-face {
+    font-family: "poppins-bold";
+    src: url(fonts/poppins-bold.yji-9690ce6275ddc5645cfa.woff2);
+}
+@font-face {
+    font-family: "poppins-medium";
+    src: url(fonts/poppins-medium.yji-dc16a3592fdb61b620cc.woff2);
+}
+
+/*-------------------------NAVBAR-SECTION-------------------*/
+.yelp-navbar{
+    display: flex;
+    flex-direction: column;
+    background-color: #d32323;
+    width: 100%;
+    position: fixed;
+}
+.open-navbar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.yelp-open-btn button{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 6px 9px 6px 6px;
+    margin-left: 9px;
+    background-color:#bc1d25;
+    border: 1px solid #91151c;
+    border-radius: 3px;
+}
+.save-icon{
+    display: flex;
+    margin-right: 1px;
+}
+
+.open-txt p{
+    font-size: 12px;
+    font-family: sans-regular;
+    color: #fff;
+    line-height: 20px;
+}
+.yelp-logo{
+    display: flex;
+    align-items: center;
+    margin-left: -60px;
+
+}
+
+.yelp-logo img{
+  width: 51.96px;
+  height: 25.98px;
+  
+}
+.yelp-three-lines{
+    display: flex;
+    align-items: center;
+    padding: 12px;
+    margin-right: 9px;
+    width: 44px;
+    height: 44px;
+}
+.yelp-search-navbar{
+   display: flex;
+   padding: 8px 10px 9px;
+
+}
+.yelp-search-navbar button{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+    height: 48px;
+    background-color: #fff;
+    border-radius: 4px;
+    border: 1px solid transparent;
+    
+}
+.yelp-search{
+    display: flex;
+    align-items: center;
+    margin-left: 17px;
+}
+.tacos-txt{
+    display: block;
+}
+.tacos-txt {
+    display: flex;
+    align-items: center;
+    padding: 13px 16px 14px;
+}
+
+.tacos-txt p{
+    font-size: 16px;
+    font-family: sans-regular;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+/*--------------------------------SERVICE-SECTION-------------------------------*/
+
+.service-section{
+    padding-top: 105px;
+}
+.service-content{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    padding: 12px;
+    margin: 0px 0px 24px;
+    margin-top: 4px;
+}
+.resturants-services{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 8px 0px;
+}
+.resturants-img img{
+    width: 36px;
+    height: 36px;
+    margin: 0px 25.9px;
+}
+.resturants-txt p{
+    font-size: 12px;
+    padding-top: 4px;
+    font-family: sans-regular;
+    white-space: nowrap;
+    font-weight: 400;
+    line-height: 16px;
+    color: rgba(45,46,47,1);
+}
+
+/*-------------------------SERVICE-AND-PROFESIONAL---------------------------*/
+
+.main-profesional-sec{
+    padding: 0px 12px;
+    margin-bottom: 24px;
+
+}
+.sub-professional-sec{
+    display: flex;
+    flex-direction: column;
+    
+}
+.service-txt p{
+    padding-bottom: 12px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    font-family: sans-regular;
+}
+.automotive-txt p{
+    font-size: 14px;
+    font-family: sans-regular;
+    font-weight: 400;
+    padding-top: 2px;
+}
+.main-profesional-img{
+    display: flex;
+    flex-direction: row;
+    overflow: scroll;
+    gap: 12px;
+}
+.main-profesional-img::-webkit-scrollbar{
+   display: none;
+}
+
+.sub-professional-img{
+    display: flex;
+    flex-direction: column;
+}
+.professional-img img{
+    object-fit: cover;
+}
+.app-btn button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 12px 16px;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: -0.2px;
+    line-height: 24px;
+    font-family: poppins-medium;
+    color: #fff;
+    background-color: black;
+    height: 48px; 
+}
+
+.app-btn{
+    margin-top: 1px;
+}
+
+
+/*---------------------------NEWS-SECTION--------------------*/
+.food-section{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 12px 0px;
+    gap: 12px;
+    border-bottom: 1px solid  rgba(253,253,253,1);
+    border-color: rgba(235,235,235,1);
+}
+.food-img img{
+    width: 68px;
+    height: 68px;
+    border-radius: 4px;
+}
+.main-new-section{
+    padding: 0px 12px;
+}
+.sub-new-section{
+    display: flex;
+    flex-direction: column;
+}
+.new-txt p{
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 32px;
+    letter-spacing: -0.4px;
+    font-family: poppins-medium;
+    border-bottom: 1px solid rgba(253,253,253,1);
+    border-color: rgba(235,235,235,1);
+    
+}
+.rating-img {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 4px 0px;
+    gap: 2px;
+    
+}
+.rating-img p{
+    font-size: 12px;
+    font-family: sans-regular;
+    color: #6e7072;
+    margin-left: 5px;
+}
+.food-content{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.food-content h2{
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: -0.2px;
+    font-family: poppins-bold;
+}
+.night-txt{
+    display: flex;
+    flex-direction: row;
+    flex-flow: wrap;
+}
+
+.night-txt p{
+    font-size: 12px;
+    line-height: 1.5em;
+    font-family: sans-regular;
+    color: #6e7072;
+    white-space: nowrap;
+    padding-right: 5px;
+}
+.view-btn{
+    display: flex;
+    align-items: center;
+    max-width: 100%;
+    margin: 12px;
+    padding-bottom: 24px;
+}
+.view-btn button{
+    display:block ;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 10px 16px;
+    width: 100%;
+    background-color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: -0.2px;
+    font-family: sans-semibold;
+    border: 1px solid rgba(200, 201, 202, 1);
+    border-radius: 4px;
+    height: 44px;
+}
+
+/*------------------------BEST-RESTURANTS-SECTION-----------------*/
+
+.main-best-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 36px 16px 24px;
+}
+.best-txt{
+    display: flex;
+    align-items: center;
+    margin-bottom: 12px;
+}
+.best-txt p{
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+    color: rgba(45,46,47,1);
+    font-family: sans-bold;
+}
+.cities-section p{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 8px;
+    font-size: 14px;
+    line-height: 20px;
+    font-family: sans-regular;
+    color: #6e7072;
+}
+
+
+/*----------------------------------LANGUAGE-SECTION--------------------------*/
+.tab-about{
+    display: none;
+}
+.main-language-section{
+    padding: 48px 24px;
+    background-color: rgba(247, 247, 247, 1);
+}
+.sub-language-section{
+    display: flex;
+    flex-direction: column;
+}
+.language-content{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 16px;
+}
+.language-content:nth-child(2){
+    margin-bottom: 0px;
+}
+.language-txt p{
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    font-family: sans-bold;
+}
+.english-txt p{
+    font-size: 14px;
+    font-weight: 400;
+    font-family: sans-regular;
+    line-height: 20px;
+    padding-top: 8px;
+    color: #6e7072;
+}
+.english-txt p ::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.about-long-content{
+    display: flex;
+    flex-direction: row;
+    flex-flow: wrap;
+    margin-top: 32px;
+}
+
+.about-long-content p{
+    font-size: 14px;
+    font-family: sans-regular;
+    line-height: 20px;
+    color: #027a97;
+}
+.about-txt p{
+   margin-top: 24px;
+   font-size: 14px;
+   font-family: sans-regular;
+   line-height: 20px;
+   color: #027a97;
+}
+.copyright-txt{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 24px;
+}
+.copyright-txt span img{
+    width: 38px;
+    height: 18px;
+}
+.copyright-txt p{
+    font-size: 12px;
+    font-family: sans-regular;
+    color: #6e7072;
+}
+.y-dot{
+    padding: 0px 6px;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 20px;
+    color:#222222;
+}
+
+/*--------------------------------MEDIA-QUERY---------------------------------------*/
+   /*-------------------------------MAX-WIDTH-760PX----------------------*/
+
+@media screen and (min-width:760px){
+    .about-long-content{
+        display: none;
+    }
+    .tab-yelp-section{
+        display: flex;
+        flex-direction: row;
+       
+    }
+    .tab-about{
+       display: flex;
+       flex: 1;
+       min-height: 0;
+       min-width: 0;
+    }
+    .main-language-section{
+        padding: 48px 24px;
+    }
+    .tab-about{
+        display: flex;
+        flex-direction: column;
+        margin: 0px 12px;
+    }
+    .about-content p{
+       font-size: 16px;
+       font-weight: 700;
+       line-height: 24px;
+       font-family: sans-bold;
+       color: rgba(45,46,47,1);
+       margin-bottom: 16px;
+    }
+    .tab-about-txt{
+        display: block;
+        white-space:wrap;
+    }
+    .tab-about-txt p{
+        font-size: 14px;
+        line-height: 20px;
+        font-family: sans-regular;
+        margin-bottom: 8px;
+        color: #6e7072;
+    }
+    .about-txt p{
+        margin-top: 48px;
+    }
+    .copyright-txt{
+        justify-content: flex-start;
+    }
+}
+
+/*---------------------------------MIN-WIDTH 1440PX-----------------*/
+
+@media screen and (min-width:1440px) {
+    .sub-language-section{
+        margin: 0px 108px;
+        padding: 0px 40px;
+    }
+    .yelp-search{
+        display: none;
+    }
+    .main-language-section{
+        padding: 60px 0px;
+    }
+    .copyright-txt{
+        margin-top: 48px;
+    }
+    
+
+}
